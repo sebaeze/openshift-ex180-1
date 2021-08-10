@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/sebaeze/openshift-ex180-1#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
   }
 }
