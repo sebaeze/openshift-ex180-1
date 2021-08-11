@@ -11,7 +11,8 @@ ADD     ./server.js    ./
 #
 RUN        dnf install -y python3 \
         && yum install -y make nodejs  \
-        && yum clean all
+        && yum clean all \
+        && npm install
 #
 WORKDIR /
 EXPOSE ${PORT}
