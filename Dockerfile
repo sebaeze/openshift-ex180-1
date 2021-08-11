@@ -1,4 +1,4 @@
-FROM ubi8/ubi:latest
+FROM registry.redhat.io/ubi8/ubi:latest
 #
 ENV  PORT=3000
 #
