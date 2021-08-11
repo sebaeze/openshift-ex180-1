@@ -7,7 +7,7 @@ LABEL      description="*** test node.js server ***"
 #
 ADD     ./package.json ./
 ADD     ./server.js    ./
-ADD     ./.env         ./
+##ADD     ./.env         ./
 #
 RUN        dnf install -y python3 \
         && yum install -y make nodejs  \
